@@ -25,3 +25,20 @@ In my opinion, GPT-3 generated description can further enhance an avatar, create
 Some ideas on GPT-3 interactions:
 - [The first intelligent nonfungible token|GPT-3 Demo](https://gpt3demo.com/apps/to-the-young-artists-of-cyberspace-inft)
 - [A robot wrote this entire article. Are you scared yet, human?|Guardian](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3)
+
+## Distribution of Attributes
+
+For the fare distribution of atttributes we advocate first expicitly defining a maximum of 5 attributes with an option of having less than 5 attributes for each avatar. 
+
+Process for distributing attributes:
+1. Define probability for each attribute, for instance, as 2.5%, 5%, 7.5%, 10%, 15%, 30%, 50%, 70%. After an attribute is used we make the probability equal to 0.
+2. Within each attribute assign probability to each item in a similar fashion. Include a possibility of no item, thus effectively not utilizing an attribute.
+
+### Advanced Distribution
+
+For more details on the distribution of attributes we suggest using [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution) which we encounter in [Crypto Punks](https://www.larvalabs.com/cryptopunks/attributes).
+
+![image](https://user-images.githubusercontent.com/66903336/132584846-d280ba44-1075-4c93-aa68-129b4d5cd604.png)
+
+![image](https://user-images.githubusercontent.com/66903336/132585038-23d28ed6-4df1-409d-94bc-56ce32801327.png)
+
